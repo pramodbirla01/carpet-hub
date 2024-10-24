@@ -9,6 +9,8 @@ import Nav from "./component/Nav";
 import Story from "./pages/Story/Story";
 import Customize from "./pages/Customize/Customize";
 import Video from "./pages/Video/Video";
+import Blog from "./pages/Blog/Blog";
+import Footer from "./component/Footer";
 
 
 export default function Home() {
@@ -22,6 +24,8 @@ export default function Home() {
    <Story/>
    <Customize/>
    <Video/>
+   <Blog/>
+   <Footer/>
     </>
   );
 }
