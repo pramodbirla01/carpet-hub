@@ -31,7 +31,7 @@ function Categories() {
   ];
 
   return (
-    <div className="py-10">
+    <div className="py-10 px-3">
       <h2 className="text-center text-xl font-semibold mb-5">Categories</h2>
       <div className="grid grid-cols-2 md:grid-cols-3 gap-4 mx-auto max-w-screen-xl">
         {categories.map((category, index) => (

@@ -27,10 +27,10 @@ function Color() {
   return (
     <div className="py-10">
       <h2 className="text-center text-xl font-semibold mb-10">Select by Colors</h2>
-      <div className="grid grid-cols-3 gap-10  mx-20 max-w-screen-xl">
+      <div className="grid grid-cols-3 md:gap-10 gap-11 mx-10  md:mx-20 max-w-screen-xl">
         {colors.map((color, index) => (
           <div key={index} className="flex justify-center">
-            <img src={color.image} alt={`Color ${index + 1}`} className="w-40 h-auto" />
+            <img src={color.image} alt={`Color ${index + 1}`} className="w-40" />
           </div>
         ))}
       </div>

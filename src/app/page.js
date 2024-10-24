@@ -3,6 +3,7 @@
 
 import Color from "./Color/Color";
 import HomeImg from "./HomeImg/HomeImg";
+import Shop_size from "./Shop_size/Shop_size";
 import Size_shop from "./Size/Size_shop";
 import Categories from "./category/Categories";
 import Nav from "./components/Nav";
@@ -15,7 +16,7 @@ export default function Home() {
     <HomeImg/>
     <Categories/>
     <Color/>
-    
+   <Shop_size/> 
     </>
   );
 }
