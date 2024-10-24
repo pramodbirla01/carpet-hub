@@ -20,10 +20,9 @@ function Story() {
           className="w-full h-full object-cover"
         />
         {/* Overlay Text for Mobile */}
-        <div className="absolute bottom-0 left-0 right-0 bg-black bg-opacity-40 p-2 ">
-          
+        <div className="absolute bottom-0 left-0 right-0 bg-black bg-opacity-40 p-2">
           <p className="text-white font-light">
-            Sanurri's artisan story is one of tradition, craftsmanship, and a deep connection to the earth through the art of rug making. 
+            Sanurri&apos;s artisan story is one of tradition, craftsmanship, and a deep connection to the earth through the art of rug making. 
             Hailing from a small village known for its weaving heritage, Sanurri learned the craft from generations of artisans before him.
           </p>
           {/* Read More Button */}
@@ -39,7 +38,7 @@ function Story() {
         <div className="flex flex-col justify-between h-full">
           <h2 className="text-black text-center text-xl font-semibold mb-5">Our Story</h2>
           <p className="text-black font-semibold text-center">
-            Sanurri's artisan story is one of tradition, craftsmanship, and a deep connection to the earth through the art of rug making. 
+            Sanurri&apos;s artisan story is one of tradition, craftsmanship, and a deep connection to the earth through the art of rug making. 
             Hailing from a small village known for its weaving heritage, Sanurri learned the craft from generations of artisans before him. 
             His rugs are not just products; they are stories woven into every thread. Each piece is carefully hand-loomed using natural 
             fibers like wool and cotton, dyed with plant-based, eco-friendly dyes. Inspired by the landscapes of his homeland, Sanurri 
