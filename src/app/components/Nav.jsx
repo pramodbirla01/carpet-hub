@@ -14,7 +14,7 @@ function Nav() {
   };
 
   return (
-    <nav className="bg-white shadow-lg flex justify-between gap-10 text-sm text-black items-center p-4">
+    <nav className="bg-white shadow-lg flex  justify-between gap-10 text-sm text-black items-center py-1">
       {/* Left Side - Logo and Mobile Menu */}
       <div className="flex items-center">
         {/* Mobile Menu Icon and Search Icon */}
@@ -61,6 +61,7 @@ function Nav() {
         </select>
 
         {/* Right Side - Icons */}
+        
         <button className="text-black hover:text-gray-800">
           <i className="ri-heart-line text-2xl"></i>
         </button>
@@ -70,6 +71,7 @@ function Nav() {
         <button className="text-black hover:text-gray-800">
           <i className="ri-user-line text-2xl"></i>
         </button>
+        
       </div>
 
       {/* Mobile Dropdown Menu */}
@@ -104,15 +106,15 @@ function Nav() {
       )}
       
       {/* Right Side - Icons for Mobile */}
-      <div className="md:hidden flex items-center gap-4 ml-auto">
+      <div className="md:hidden flex items-center  gap-3 mr-4">
         <button className="text-black hover:text-gray-800">
           <i className="ri-heart-line text-2xl"></i>
         </button>
         <button className="text-black hover:text-gray-800">
-          <i className="ri-user-line text-2xl"></i>
+          <i className="ri-shopping-bag-line text-2xl"></i>
         </button>
         <button className="text-black hover:text-gray-800">
-          <i className="ri-shopping-bag-line text-2xl"></i>
+          <i className="ri-user-line text-2xl"></i>
         </button>
       </div>
     </nav>
